@@ -7,3 +7,5 @@
 \RequirePackage{hyperref}
 \RequirePackage{graphicx}
 \RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{braket}
