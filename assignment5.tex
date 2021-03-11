@@ -1,0 +1,90 @@
+\documentclass{assignment}
+
+\begin{document}
+
+\section{Let B be a basis for R3. Find the transition matrix corresponding to the change of basis from the standard basis to basis B. Find coordinate vector of v with respect to basis B.}
+\begin{align}
+  B = \set{
+    u_1 = \begin{bmatrix}
+      1 \\
+      1 \\
+      1
+    \end{bmatrix}
+    u_2 = \begin{bmatrix}
+      1 \\
+      2 \\
+      2
+    \end{bmatrix}
+    u_1 = \begin{bmatrix}
+      2 \\
+      3 \\
+      4
+    \end{bmatrix}} \\
+  v = \begin{bmatrix}
+    2 \\
+    3 \\
+    5
+  \end{bmatrix}
+\end{align}
+
+\newpage
+
+\section{Find the matrix T with respect to the standard basis of R3}
+\begin{align}
+  T: \mathbb{R}^3 \rightarrow \mathbb{R}^3 \\
+  T\left(
+  \begin{bmatrix}
+    x_1 \\
+    x_2 \\
+    x_3
+  \end{bmatrix}
+  \right) = \begin{bmatrix}
+      x_1 + x_2 \\
+      x_1 - x_2 \\
+      x_2
+    \end{bmatrix}
+\end{align}
+
+\newpage
+
+\section{Find a basis for V and also dim(V)}
+\begin{align}
+  V = \set{
+    \begin{bmatrix}
+      x_1 \\
+      x_2 \\
+      x_3
+    \end{bmatrix}
+    \mbox{ in }
+    \mathbb{R}^3
+    \mid
+    T\left(
+    \begin{bmatrix}
+      x_1 \\
+      x_2 \\
+      x_3
+    \end{bmatrix}
+    \right) = \begin{bmatrix}
+      0 \\
+      0 \\
+      0
+    \end{bmatrix}
+  }
+\end{align}
+
+\newpage
+
+\section{Show T is a linear Transformation. Find the matrix of T with respect to the standard basis of R2. Explain what T does geometrically.}
+\begin{align}
+  T\left(
+  \begin{bmatrix}
+    x \\
+    y
+  \end{bmatrix}
+  \right) = \begin{bmatrix}
+    y \\
+    x
+  \end{bmatrix}
+\end{align}
+
+\end{document}
